@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 	b = atoi(argv[2]);
 	suma = a+b;
 
-	printf("Suma dintre %d si %d este: %d\n", a,b,suma);
+	printf("%d",suma);
 
 	return 0;
 }
