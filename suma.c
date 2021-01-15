@@ -12,3 +12,4 @@ int main(int argc, char *argv[])
 	printf("Suma dintre %d si %d este: %d\n", a,b,suma);
 
 	return 0;
+}
