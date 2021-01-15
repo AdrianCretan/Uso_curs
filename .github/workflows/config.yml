@@ -24,7 +24,13 @@ jobs:
                           run: ./suma 0 0
                         - name: test6 
                           run: |
-                            if[$(./suma 2 3)=="5";fi
-                            if[$(./suma 4 7)=="11";fi  
+                            if["$(./suma 2 3)" !="5";
+                            then
+                            exit 1
+                            fi
+                            if["$(./suma 4 7)"!="11";
+                            then
+                            exit 1
+                            fi  
 
 
