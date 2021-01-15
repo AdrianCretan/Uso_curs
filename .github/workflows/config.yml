@@ -31,6 +31,11 @@ jobs:
                             if [ "$(./suma 4 7)" != "11" ]
                              then
                               exit 1
+                            fi
+                            if [ "$(./suma -3 -1) != "-4" ]
+                             then
+                              exit 1
                             fi  
+
 
 
